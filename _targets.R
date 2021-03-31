@@ -8,7 +8,6 @@ plan(multisession)
 
 ## tar_plan supports drake-style targets and also tar_target()
 tar_plan(
-
-  low_mpg = filter(mtcars < 20)
+  low_mpg = do_filter()
 
 )
